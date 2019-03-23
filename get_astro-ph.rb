@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 require 'net/http'
 require 'uri'
 
@@ -25,4 +27,3 @@ urls.each_with_index do |el,i|
 end
 
 puts 'Done.'
-

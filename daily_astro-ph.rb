@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 require 'rss'
 require 'optparse'
 require 'time'
@@ -90,7 +92,6 @@ filenames.each_with_index do |fn,i|
         puts
         if !options[:suppress_summary]
             puts el.summary.content
-            puts
         end
         puts
     end
