@@ -66,7 +66,7 @@ end.parse!
 max_author=5
 filenames.each_with_index do |fn,i|
     feed = RSS::Parser.parse(open(fn))
-    puts names[i].cyan.underline
+    puts names[i].cyan
     puts
 
     starting  = (options[:page]-1)*options[:entries]
